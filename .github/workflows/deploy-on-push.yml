@@ -20,16 +20,16 @@ jobs:
 
         with:
 
-          host: ${{secrets.HOST}}
+           host: ${{secrets.HOST}}
 
-          username: ${{secrets.SSH_USER_NAME}}
+           username: ${{secrets.SSH_USER_NAME}}
 
-          port: ${{secrets.SSH_PORT}}
+           port: ${{secrets.SSH_PORT}}
 
-          key: ${{secrets.SSH_KEY}}
+           key: ${{secrets.SSH_KEY}}
 
-          source: "./html/*"
+           source: "./html/*"
 
-          target: "/var/www/html"
+           target: "/var/www/html"
 
-          strip_components: 1
+           strip_components: 1
